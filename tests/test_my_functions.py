@@ -13,7 +13,7 @@ def test_add_strings():
 
 def test_divide():
     result = my_functions.divide(number_one=10, number_two=2)
-    assert result == 5
+    assert result == 4
 
 def test_divide_zero():
     with pytest.raises(ValueError):
